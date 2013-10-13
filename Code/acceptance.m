@@ -1,5 +1,16 @@
 function accepted = acceptance(initial_confor,final_confor,param,way)
 % Decide if it accepts changes in the conformation or not.
+%%%%%%%%%%%%%%%%%
+% Inputs:
+%	** initial_confor: 
+%	** final_confor: 
+%	** param:
+%	** way: 
+%%%%%%%%%%%%%%%%%
+% Outputs:
+%	accepted: boolean value. Decide if it will be accepted
+%%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
 
 
 final_e = Fitnessfunction(final_confor);

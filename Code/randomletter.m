@@ -1,5 +1,15 @@
 function letters = randomletter(size)
-% Return a random letter
+% Return an array of random 'letters'. Returns an array of integers {1,2,3}
+%%%%%%%%%%%%%%%%%
+% Inputs:
+%	** size: number of length of the array of output 
+%%%%%%%%%%%%%%%%%
+% Outputs:
+%	** letters: Returns an array of integers {1,2,3}
+%%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
+
+
 
 %letters=zeros(1,size);
 %support = rand(1,size);

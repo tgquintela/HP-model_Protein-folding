@@ -1,5 +1,19 @@
 function xoverKids  = crossover(parents,options,GenomeLength,FitnessFcn,thisScore,thisPopulation,ratio)
-
+% Crossover operator implemented for the conformations HP model
+%%%%%%%%%%%%%%%%%
+% Inputs:
+%	** parents: collection of conformation; the parents of the crossover
+%	** options: configuration options 
+%	** GenomeLength
+%	** FitnessFcn
+%	** thisScore
+%	** thisPopulation
+%	** ratio 
+%%%%%%%%%%%%%%%%%
+% Outputs:
+%	** xoverKids: 
+%%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
 
 
 disp('crossover')

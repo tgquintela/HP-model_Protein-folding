@@ -1,6 +1,16 @@
 function randconfor = randconformation(GenomeLength,pre_conf,step,cruxes)
 % Create a self-avoiding path a return it.
-
+%%%%%%%%%%%%%%%%%
+% Inputs:
+% 	** GenomeLength:  the length of the conformation
+% 	** pre_conf: 
+% 	** step: vector 2d with the next position
+% 	** cruxes: points with a cross
+%%%%%%%%%%%%%%%%%
+% Outputs:
+% 	** randconfor: returns a valid randomconformation which is a self-avoiding path in 2d square grid 
+%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
 
 
 %Input control

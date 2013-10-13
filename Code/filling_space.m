@@ -1,12 +1,15 @@
 function [chain_pos,cruxes] = filling_space(conformation)
 % Plot the chain over a 2D map and find the degenerate points
-%INPUTS
-% conformation: chain of characters : {1,2,3} = {'l','r','s'}
-%
-% OUTPUT
-% chain_pos: integer matrix 2D
-% cruxes: integer vector indicating what elements of the chain produces
-% degeneration
+%%%%%%%%%%%%%%%%%
+% Inputs:
+% 	** conformation: chain of characters : {1,2,3} = {'l','r','s'}
+%%%%%%%%%%%%%%%%%
+% Outputs:
+% 	** chain_pos: integer matrix 2D
+% 	** cruxes: integer vector indicating what elements of the chain produces
+% 	** degeneration
+%%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
 
 
 %initialization

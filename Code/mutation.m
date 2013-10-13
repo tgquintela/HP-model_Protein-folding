@@ -1,6 +1,24 @@
 function mutationChildren = mutation(parents,options,GenomeLength,FitnessFcn,state,thisScore,thisPopulation,mutationRate)
-% Return mutations
-%
+% Return mutations. Give the mutation operator for the conformations
+%%%%%%%%%%%%%%%%%
+% Inputs:
+%	** parents: collection of conformation; the parents of the crossover
+%	** options: configuration options 
+%	** GenomeLength:  the length of the conformation
+%	** FitnessFcn
+%	** thisScore
+%	** thisPopulation
+%	** ratio 
+%%%%%%%%%%%%%%%%%
+% Outputs:
+%	** mutationChildren: return the collection of children of the operator mutation
+%%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
+
+
+
+
+
 disp('mutation');
 toc;
 mutationRate=2/length(parents);

@@ -1,6 +1,15 @@
 function Energia = energy_function(composition,conformation)
-% Return the Energy of the protein
-% It is suposed a valid conformation
+% Evaluate the energy of a protein conformation. It is suposed a valid conformation
+%%%%%%%%%%%%%%%%%
+% Inputs:
+%	** composition: an array of string {H,P} describing the composition of each aminoacid
+%	** conformation: an array of numbers {1,2,3} describing the conformation of the protein
+%%%%%%%%%%%%%%%%%
+% Outputs:
+%	** Energia: Return the Energy of the protein conformation
+%%%%%%%%%%%%%%%%%
+% Author: 'Toño G. Quintela' tgq.spm@gmail.com
+
 
 
 % Filling the square space
