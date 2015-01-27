@@ -2,7 +2,7 @@ HP model Protein folding
 ========================
 
 Project developed in the context of the CI subject of MAI which tries to tackle the problem of the protein folding in a [HP model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)
-In order to solve the optimization problem under the constraint of self-avoiding paths is used Genetic Algorithms with the needed complementary functions.
+In order to solve the optimization problem under the constraint of self-avoiding paths is used [Genetic Algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) with the needed complementary functions.
 
 Code
 ====
@@ -20,6 +20,6 @@ function acceptance which implements the decision described before.
 
 TODO
 ====
-* The mutation with simmulated annealing (evolve temperature along time)
+* The mutation with [simmulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing) (evolve temperature along time)
 * Give structure to the code.
 * Speed up the program.
