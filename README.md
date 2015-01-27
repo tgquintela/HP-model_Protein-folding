@@ -4,6 +4,8 @@ HP model Protein folding
 Project developed in the context of the CI subject of MAI which tries to tackle the problem of the protein folding in a [HP model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)
 In order to solve the optimization problem under the constraint of self-avoiding paths is used [Genetic Algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) with the needed complementary functions.
 
+![More information](protein_folding.pdf)
+
 Code
 ====
 
